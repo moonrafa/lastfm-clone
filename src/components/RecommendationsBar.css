@@ -1,0 +1,26 @@
+.recommendationsBar {
+  background: transparent;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
+  padding-top: 1.6rem;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.recommendationsBar > ul {
+  display: flex;
+  margin-left: 2rem;
+}
+.recommendationsBar > ul > li {
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  padding-bottom: 0.8rem;
+}
+.recommendationsBar > ul > li > a {
+  color: #000;
+  font-size: 0.875rem;
+}
+.activeLink {
+  border-bottom: 5px solid #b90000;
+  font-weight: 700;
+}
