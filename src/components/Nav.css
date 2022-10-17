@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  background: #000000;
+  height: 3.75rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+.nav__left__icons {
+  margin-left: 3rem;
+  color: #666666;
+}
+.nav__left__icons .MuiSvgIcon-root {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+.nav__left__icons > .heartIcon {
+  width: 1.2rem;
+}
+.nav__middle > img {
+  width: 100%;
+  height: 1.7rem;
+  cursor: pointer;
+  object-fit: cover;
+}
+.nav__right {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  margin-right: 1.25rem;
+}
+.nav__right > .MuiSvgIcon-root {
+  opacity: 0.85;
+  font-size: 18px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.nav__right__links > ul > li > a {
+  color: white;
+  font-size: 0.875rem;
+  opacity: 0.85;
+}
+.nav__right__links > ul {
+  display: flex;
+  margin-right: 1rem;
+  padding-inline-start: 0.75rem;
+}
+.nav__right__links > ul > li {
+  padding-right: 1rem;
+}
+.nav__right .MuiAvatar-root {
+  height: 2rem;
+  cursor: pointer;
+  width: 2rem;
+}
