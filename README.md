@@ -1,4 +1,4 @@
-# LAST.FM CLONE
+# Last.fm clone
 
 ## Tools
 

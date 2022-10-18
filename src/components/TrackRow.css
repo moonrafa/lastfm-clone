@@ -1,0 +1,18 @@
+.trackRow {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1rem;
+}
+.trackRow__track {
+  width: 15rem;
+  margin-bottom: 1rem;
+  position: relative;
+  object-fit: contain;
+  height: 15rem;
+  background-repeat: no-repeat;
+  color: white;
+}
+.album__icon {
+  color: #009966;
+}
