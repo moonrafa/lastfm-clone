@@ -1,0 +1,33 @@
+.sidebar {
+  flex: 0.37;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+.sidebar__library,
+.sidebar__mix,
+.sidebar__recommendations {
+  display: flex;
+  padding-top: 0.625rem;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.sidebar__library > .MuiSvgIcon-root,
+.sidebar__mix > .MuiSvgIcon-root,
+.sidebar__recommendations > .MuiSvgIcon-root {
+  height: 1.6rem;
+  width: 1.6rem;
+
+  color: black;
+  padding-right: 0.625rem;
+}
+.sidebar__library > a,
+.sidebar__mix > a,
+.sidebar__recommendations > a {
+  color: black;
+  font-size: 15px;
+}

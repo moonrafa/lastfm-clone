@@ -11,6 +11,9 @@
 
 ## Demo
 
+- home
+  <img src="src/demo/home.png">
+
 ## Author
 
 Rafaelly Rodrigues

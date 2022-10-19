@@ -2,17 +2,85 @@
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 1rem;
+  padding-left: 2.75rem;
+  margin-left: 2rem;
+  flex: 0.7;
+  margin-top: 1.5rem;
 }
 .trackRow__track {
+  margin-left: 1rem;
   width: 15rem;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
   position: relative;
   object-fit: contain;
   height: 15rem;
-  background-repeat: no-repeat;
   color: white;
 }
-.album__icon {
+.trackRow__track::after {
+  background-image: linear-gradient(
+    180deg,
+    transparent 0,
+    rgba(0, 0, 0, 0.35) 70%,
+    rgba(0, 0, 0, 0.7)
+  );
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.trackRow__similar {
+  background: #f9f9f9;
+  box-shadow: inset 1px 0 #ebebeb, inset -1px -1px #ebebeb;
+  position: relative;
+  height: 3.75rem;
+  color: #666;
+  margin-top: 15rem;
+}
+.trackRow__similar > p {
+  text-align: left;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+.trackRow__similar > p > span {
+  text-decoration: underline;
+  color: #406a9f;
+  cursor: pointer;
+}
+
+.trackRow__info {
+  text-shadow: 0 0 10px rgb(0, 0, 0, 0.7);
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  padding-left: 1rem;
+  flex-direction: column;
+}
+.trackRow__info > .play__button {
+  padding-top: 2px;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0.7;
+}
+.trackRow__info > h4 {
+  padding-top: 110px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.125rem;
+  width: 190px;
+}
+.trackRow__info > h5 {
+  font-size: 0.75rem;
+  padding-top: 2px;
+}
+.trackRow__info > h6 {
+  padding-top: 2px;
+}
+.trackRow__info > .album__icon {
   color: #009966;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding-left: 10rem;
 }

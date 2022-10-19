@@ -1,9 +1,12 @@
 .nav {
   display: flex;
+  position: fixed;
   background: #000000;
   height: 3.75rem;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  z-index: 2;
 }
 .nav__left {
   display: flex;
@@ -19,6 +22,9 @@
 }
 .nav__left__icons > .heartIcon {
   width: 1.2rem;
+}
+.nav__middle {
+  padding-left: 5rem;
 }
 .nav__middle > img {
   width: 100%;

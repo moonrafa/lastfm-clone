@@ -1,15 +1,14 @@
 .recommendationsBar {
   background: transparent;
-  height: 2.3rem;
+  height: 6rem;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding-top: 1.6rem;
   border-bottom: 1px solid whitesmoke;
 }
-
 .recommendationsBar > ul {
   display: flex;
-  margin-left: 2rem;
+  margin-left: 2.6rem;
 }
 .recommendationsBar > ul > li {
   margin-left: 0.5rem;
